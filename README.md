@@ -44,6 +44,7 @@ include = ['T1', 'T2']
 exclude = ['low_res']
 mode = 'symbolic'
 group_by = ['SeriesInstanceUID', 'SeriesNumber', 'SeriesDescription']
-dcmnii.convert_one_directory(input_unsorted_dicom_dir, output_dir, log = log, orientation = orientation, keyword = include, exclude = exclude, mode = mode, group_by = group_by)
+dcmnii.convert_one_directory(input_unsorted_dicom_dir, output_dir, log = log, orientation = orientation, 
+                             keyword = include, exclude = exclude, mode = mode, group_by = group_by)
 ```
 
