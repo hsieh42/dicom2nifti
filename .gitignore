@@ -1,5 +1,6 @@
 # dicom2nifti test/ directory as it contains too many large images
 tests/
+setup.cfg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
