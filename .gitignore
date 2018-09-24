@@ -1,3 +1,6 @@
+# dicom2nifti test/ directory as it contains too many large images
+tests/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
